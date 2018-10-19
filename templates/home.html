@@ -1,0 +1,12 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<h1>Welcome to word count</h1>
+<kbd>I'm a django developer</kbd>
+<br>
+<form action="{% url 'count' %}">
+<textarea cols="40" rows="4" name="inparea"></textarea><br>
+<input type="submit" value="count"/>
+</form>
+<a href="{% url 'about' %}">About Us </a>
+<script>
+    alert('welcome');
+</script>
