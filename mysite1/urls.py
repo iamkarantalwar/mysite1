@@ -19,7 +19,7 @@ from . import views
 
 urlpatterns = [
     path('', views.homepage),
-    path('about/' ,views.about, name="about"),
+    path('aboutus/' ,views.about, name="about"),
     path('counts/', views.coutpage, name='count'),
 
 ]
